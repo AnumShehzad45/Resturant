@@ -361,3 +361,17 @@ font-size: 15px;
   gap: 12px;
   z-index: 999;
 }
+.btn1{
+   width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f4b740; /* orange like image */
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.btn1:hover{
+    background-color: #e3a62f;
+}
