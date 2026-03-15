@@ -475,7 +475,7 @@ function scrollToTop() {
   });
 }
   async function startCall(){
-  await fetch("https://your-n8n-domain/webhook/start-call",{
+  await fetch("http://localhost:5678/webhook-test/c8da3508-32d1-4f1a-9736-899af7f5f5ff",{
     method:"POST"
   });
   alert("AI call is starting...");
