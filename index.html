@@ -463,12 +463,22 @@
     ^
   </button>
 </div>
+   <div>
+     <button onclick="startCall()">Start AI Call</button>
+
+   </div>
 <script>
 function scrollToTop() {
   window.scrollTo({
     top: 0,
     behavior: "smooth"
   });
+}
+  async function startCall(){
+  await fetch("https://your-n8n-domain/webhook/start-call",{
+    method:"POST"
+  });
+  alert("AI call is starting...");
 }
 </script>
 </body>
